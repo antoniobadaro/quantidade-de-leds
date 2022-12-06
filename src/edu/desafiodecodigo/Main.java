@@ -20,7 +20,7 @@ package edu.desafiodecodigo;
 public class Main {
     public static void main(String[] args) {
         Integer expected0 = 12;
-        Integer actual0 = Painel.calculaTotalLeds(17,17);
+        Integer actual0 = Painel.calculaTotalLeds(2,3);
         System.out.println(expected0+" "+actual0);
     }
 }
